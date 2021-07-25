@@ -1,0 +1,95 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+article {
+    font-size: 1vw;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 4vw;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 2vw;
+}
+article.a1 {
+    background-color: hsl(31, 77%, 52%);
+}
+article.a2 {
+    background-color: hsl(184, 100%, 22%);
+}
+article.a3 {
+    background-color: hsl(179, 100%, 13%);
+}
+div.head {
+    font-size: 3vw;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+img {
+    height: 3vw;
+}
+button {
+    display: block;
+    margin-top: 10vw;
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 1vw 2vw;
+    border-top-left-radius: 2vw;
+    border-top-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    font-size: 1vw;
+}
+.a1 button {
+    color: hsl(31, 77%, 52%);
+}
+.a2 button {
+    color: hsl(184, 100%, 22%);
+}
+.a3 button {
+    color: hsl(179, 100%, 13%);
+}
+button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+@media (max-width: 500px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    article {
+        line-height: 4vw;
+        font-size: 3vw;
+    }
+    div.head {
+        font-size: 5vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    img {
+        height: 8vw;
+    }
+    button {
+        margin-top: 5vw;
+        border: 2px solid hsl(0, 0%, 95%);
+        padding: 2vw 6vw;
+        border-top-left-radius: 4vw;
+        border-top-right-radius: 4vw;
+        border-bottom-left-radius: 4vw;
+        border-bottom-right-radius: 4vw;
+        font-size: 2vw;
+    }
+}
